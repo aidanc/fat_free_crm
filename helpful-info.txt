@@ -1,0 +1,17 @@
+Getting debug working:
+
+Install linecache19:
+
+download: http://rubyforge.org/frs/download.php/75414/linecache19-0.5.13.gem
+gem install linecache19-0.5.13.gem
+gem install ruby-debug-base19x --pre
+
+Then uninstall all gems except:
+
+$gem list | grep debug
+debugger-ruby_core_source (1.2.0)
+ruby-debug-base19x (0.11.30.pre12)
+ruby-debug-ide (0.4.17)
+
+
+So use 'gem uninstall X' until only those are left.
