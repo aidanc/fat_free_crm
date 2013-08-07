@@ -61,7 +61,7 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'headless'
-  gem 'debugger' unless ENV["CI"]
+  #gem 'debugger' unless ENV["CI"]
   gem 'pry-rails' unless ENV["CI"]
 end
 
